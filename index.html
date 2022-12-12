@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personally Fit by Pebbles</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/defaults.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="">
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Crete+Round:ital@0;1&family=Spectral:ital,wght@0,200;0,400;0,700;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="navLeft">
+                <img src="/assets/icons/icon.png" alt="">
+                <div>
+                    <div><h5 class="topNavTitle">Personally Fit</h5></div>
+                    <div><h5 class="lowerNavTitle">By Pebbles</h5></div>
+                </div>
+            </div>
+            <div class="navRight">
+                <ul>
+                    <li><a class="button" href="">How it works</a></li>
+                    <li><a class="button" href="">Story</a></li>
+                    <li><a class="button" href="">Pricing</a></li>
+                    <li><a class="button" href="">Coaching</a></li>
+                    <li><a class="button" href="">Gifting</a></li>
+                    <li><a class="button" href="">Login</a></li>
+                    <li><a class="button" href="">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="container">
+            <video width="100%" height="100%"  autoplay muted loop >
+                <source src="/assets/videos/titleVideo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h1>Get in the best shape of your life!</h1>
+        </header>
+
+        <div class="inspirationalQuote">
+            <h2>We believe real fitness results require a real human relationship</h2>
+        </div>
+
+
+        <div class="howItWorks">
+            <h2>How it Works</h2>
+            <div class="howItWorksInfo">
+                <div>
+                    <img src="/assets/transparent/letters.png" alt="" class="letters">
+                </div>
+                <div class="howItWorksRight">
+                    <h3>I strive to be the perfect coach</h3>
+                    <h4>Because what works for everyone is different. You need someone you click with.</h4>
+                    <hr>
+                    <ul>
+                        <li>a coach with the best style & specialties for you</li>
+                        <li>Start with a consultation so you know it's a fit</li>
+                        <li>Get matched with the right workout</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="howItWorksInfo2">
+                <div class="howItWorks2">
+                    <div class="howItworksMargin">
+                        <h3>Custom workouts</h3>
+                        <h4>Every program is designed just for you and your goals</h4>
+                        <hr>
+                            <ul>
+                                <li>Your goals</li>
+                                <li>Your body & injuries</li>
+                                <li>Your schedule & favorite activities</li>
+                            </ul>
+                    </div>
+                
+                    <div>
+                        <img src="/assets/transparent/letters.png" alt="" class="letters">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="pricing">
+            <h2>Personal training for $3 a day</h2>
+
+            <div class="container">
+                <div>
+                    <div>
+                        <h3>Plan duration</h3>
+                            <div class="pricingButtons">
+                                <h6 onclick="displayMonth()" class="button2">1 Month</h6>
+                                <h6 onclick="displayMonths()" class="button2">6 Months</h6>
+                                <h6 onclick="displayYear()" class="button2">Yearly</h6>
+                            </div>
+                        <h3 id="price" class="price">4$</h3>
+                        <h4> / Day</h4>
+                        <h4 id="monthlyPrice">95$ Billed monthly</h4>
+                    </div>
+                </div>
+                <div class="pricingInfo">
+                    <h4>Personalized Workouts</h4>
+                    <h4>Daily feedback & guidance from your certified coach</h4>
+                    <h4>Personalized nutrition coaching at no extra cost</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="getStarted">
+            <button class="button">Get started</button>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <hr>
+                <button class="accordion button" onclick="clicked()">What are the benefits of hiring a personal trainer?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.
+                    </p>
+                </div>
+            <hr>
+                <button class="accordion button" onclick="clicked()">What type of scheduling is best for my personal trainer?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.
+                    </p>
+                </div>
+            <hr>
+                <button class="accordion button" onclick="clicked()">What topics would you like to explore on the blog in the future?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.
+                    </p>
+                </div>
+            <hr>
+        </div>
+        <div class="reviewers">
+            <h2>Reviews</h2>
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width slides/quotes -->
+                <div class="mySlides">
+                    <div class="stars">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                    </div>
+                    <br>
+                    <q>I feel more confident every day about achieving my goals knowing 
+                        that I have someone supporting my journey towards a healthier life!</q>
+                    <p class="author">- Elsie Bates</p>
+                </div>
+            
+                <div class="mySlides">
+                    <div class="stars">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                    </div>
+                    <br>
+                    <q>I have never left a review before but I feel very strongly about this app and
+                         my trainer. My experience with Kickoff has been phenomenal!</q>
+                    <p class="author">- Shannon Mills</p>
+                </div>
+            
+                <div class="mySlides">
+                    <div class="stars">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                        <img src="/assets/icons/star.png" alt="">
+                    </div>
+                    <br>
+                    <q>I was tired of feeling like I just couldn't get to the gym, eat right, or get to my goals. 
+                        Things would always come up... Kickoff has changed that.</q>
+                    <p class="author">- Same Moore</p>
+                </div>
+                <!-- Next/prev buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <!-- Dots/bullets/indicators -->
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <div class="bottom">
+                <div class="footer">
+                <div>
+                    <h4><a href="">How it works</a></h4>
+                    <h4><a href="">Pricing</a></h4>
+                    <h4><a href="">success stories</a></h4>
+                    <h4><a href="">Blog</a></h4>
+                    <h4><a href="">Careers</a></h4>
+                    <h4><a href="">FAQs</a></h4>
+                </div>
+                <div>
+                    <h4><a href="">Facebook</a></h4>
+                    <h4><a href="">Twitter</a></h4>
+                    <h4><a href="">Instagram</a></h4>
+                    <h4><a href="">YouTube</a></h4>
+                    <h4><a href="">Reddit</a></h4>
+                    <h4><a href="">LinkedIn</a></h4>
+                </div>
+                <div>
+                    <img src="/assets/icons/icon.png" alt="">
+                    <h4><a href="">Email</a></h4>
+                    <h4><a href="">address</a></h4>
+                    <h4><a href="">address</a></h4>
+                    <h4><a href="">phone number</a></h4>
+                </div>
+            </div>
+                <div class="copyright">                
+                    <h4><a href="">Copyright 2022 Pebbles.com</a></h4>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

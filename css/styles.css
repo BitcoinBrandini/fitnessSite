@@ -1,0 +1,371 @@
+body {
+    background-color: var(--background-light);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--font-color-dark);
+    white-space: nowrap;
+
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+}
+
+.topNavTitle {
+    font-family:  'Crete Round', serif;
+    font-size: var(--font-size-tiny);
+}
+
+.lowerNavTitle {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: var(--font-size-tiny);
+}
+
+img {
+    width: var(--font-size-large);
+}
+
+.navRight > ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navRight li {
+    list-style: none;
+    flex-wrap: nowrap;
+    font-size: var(--font-size-tiny);
+    margin-right: var(--size-10);
+    color: var(--font-color-dark);
+    padding: var(--size-10) var(--size-20);
+}
+.navRight ul li::before {
+    content: none;
+}
+
+
+video {
+    width: 100%;
+    min-width: 100%;
+    z-index: -1;
+    margin: -5px 0px;
+
+}
+
+header h1 {
+    position: absolute;
+    color: var(--white);
+    font-size: var(--font-size-large);
+    font-family: 'Crete Round', serif;
+    padding: 20vw;
+    top: 10vh;
+}
+
+.inspirationalQuote {
+    font-size: var(--font-size-small);
+    padding: 150px 20px;
+    background-color: var(--background);
+    font-family: 'Crete Round', serif;
+    margin-bottom: var(--font-size-small);
+}
+
+.inspirationalQuote h2 {
+    text-align: center;
+}
+
+.howItWorks {
+    padding: 10px;
+    margin-top: var(--size-100);
+
+}
+
+.howItWorks2 {
+    display: flex;
+    padding: 10px;
+    margin-top: var(--size-100);
+
+}
+.howItWorks h2 {
+    font-size: var(--font-size-small);
+    text-align: center;
+    color: var(--font-color-light);
+    font-family: 'Crete Round', serif;
+
+}
+
+.howItWorks h3, .howItWorks h4 {
+    font-size: var(--font-size-tiny);
+    color: var(--font-color-dark);
+    font-family: 'Crete Round', serif;
+
+}
+
+.howItWorks li {
+    font-size: var(--font-size-mini);
+    list-style-type:none;
+    font-family: 'Crete Round', serif;    
+}
+
+ul li::before {
+    content: "\2022";
+    color: var(--background-dark);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.howItWorksInfo, .howItWorks2 {
+    display: flex;
+    margin-top: var(--size-100);
+    justify-content: space-between;
+}
+
+.howItWorksRight {
+    padding-left: var(--size-150);
+    padding-right: var(--size-150);
+}
+
+.howItWorks img{
+    width: 50vw;
+    margin-right: var(--size-150);
+}
+
+.howItWorks2 {
+    padding-left: var(--size-50);
+    margin-right: var(--size-50);
+}
+
+.howItWorks2 img {
+    width: 36vw;
+}
+
+hr {
+    border-top: 5px dotted var(--background-dark);
+    margin-bottom: 30px;
+}
+
+.howItWorksMargin {
+    max-width: 30vw;
+    padding-left: 50px ;
+}
+
+
+.pricing {
+    padding-top: var(--font-size-large);
+    text-align: center;
+    font-family: 'Crete Round', serif;
+
+}
+
+.pricing .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing h2 {
+    font-size: var(--font-size-small);
+    color: var(--font-color-dark);
+}
+
+.pricing h3 {
+    padding-top: 5vh;
+    font-size: var(--font-size-medium);
+    color: var(--font-color-dark);
+}
+
+.pricing .button h3 {
+font-size: var(--font-size-tiny);
+padding: 10px 20px;
+}
+
+.pricing .button {
+    padding: var(--size-10);
+    margin: var(--size-18);
+}
+
+.pricing .container {
+    height: 50vh;
+    width: 80VW;
+    background-color: var(--background-dark);
+    border-radius: 20PX;
+    padding: 10px;
+}
+
+.pricingButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.pricingInfo {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    align-content: space-around;
+    font-size: var(--font-size-mini);
+}
+
+.getStarted {
+    display: flex;
+    justify-content: center;
+    margin: var(--size-150);
+    font-family: 'Crete Round', serif;
+}
+.getStarted button {
+    justify-content: center;
+    font-size: var(--font-size-medium);
+    border: none;   
+}
+
+.content {
+    display: hidden;
+    visibility: hidden;
+    background-color: var(--background)
+}
+
+.faq { 
+    text-align: center;
+    margin: 0px 0px;
+ }
+.faq h2 { 
+    font-size: var(--font-size-medium);
+    color: var(--font-color-dark);
+}
+.faq hr { margin-top: var(--size-30);}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.5s;
+    text-align: center;
+  }
+
+  .accordion {
+    width: fit-content;
+  }
+  
+  .active, .accordion:hover {
+    background-color: var(accent);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: var(--background-light);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+  }
+
+.reviewers h2 {
+    font-size: var(--font-size-medium);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: var(--background-dark);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+  .mySlides:first-child {
+    display: block;
+}
+
+.stars {
+    display: flex;
+    width: 30px;
+}
+
+.bottom {
+    background-color: var(--background-dark);
+
+}
+
+.footer {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    font-size: var(--font-size-mini);
+    font-family: 'Spectral', serif;
+
+}
+
+img.letters {
+    padding-left: var(--size-50);
+}
