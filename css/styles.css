@@ -41,7 +41,6 @@ img {
     font-size: var(--font-size-tiny);
     margin-right: var(--size-10);
     color: var(--font-color-dark);
-    padding: var(--size-10) var(--size-20);
 }
 .navRight ul li::before {
     content: none;
@@ -189,7 +188,7 @@ padding: 10px 20px;
 }
 
 .pricing .container {
-    height: 50vh;
+    height: fit-content;
     width: 80VW;
     background-color: var(--background-dark);
     border-radius: 20PX;
@@ -268,7 +267,6 @@ padding: 10px 20px;
 .reviewers h2 {
     font-size: var(--font-size-medium);
     text-align: center;
-    padding: 50px 0px;
 }
 
 /* Slideshow container */
@@ -368,4 +366,9 @@ padding: 10px 20px;
 
 img.letters {
     padding-left: var(--size-50);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
 }
