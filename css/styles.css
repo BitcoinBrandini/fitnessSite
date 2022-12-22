@@ -30,7 +30,7 @@ img {
     width: var(--font-size-large);
 }
 
-.navRight > ul {
+.navRight ul {
     display: flex;
     flex-wrap: nowrap;
 }
@@ -145,6 +145,9 @@ ul li::before {
 
 hr {
     border-top: 5px dotted var(--background-dark);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
     margin-bottom: 30px;
 }
 
@@ -178,13 +181,13 @@ hr {
 }
 
 .pricing .button h3 {
-font-size: var(--font-size-tiny);
-padding: 10px 20px;
+    font-size: var(--font-size-tiny);
+    padding: 10px 20px;
 }
 
 .pricing .button {
-    padding: var(--size-10);
-    margin: var(--size-18);
+    padding: 0;
+    margin: 0;
 }
 
 .pricing .container {
@@ -216,7 +219,7 @@ padding: 10px 20px;
 }
 .getStarted button {
     justify-content: center;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-large);
     border: none;   
 }
 
@@ -237,20 +240,20 @@ padding: 10px 20px;
 .faq hr { margin-top: var(--size-30);}
 
 .accordion {
-    color: #444;
+    color: var(--font-color-dark);
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 96%;
     border: none;
     outline: none;
     font-size: 15px;
     transition: 0.5s;
     text-align: center;
+    justify-content: center;
+    margin-left: 20px;
   }
 
-  .accordion {
-    width: fit-content;
-  }
+
   
   .active, .accordion:hover {
     background-color: var(accent);
